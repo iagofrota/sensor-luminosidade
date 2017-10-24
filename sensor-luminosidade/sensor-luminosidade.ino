@@ -1,5 +1,6 @@
 int portaLed = 10;
 int portaLDR = A5;
+const int valor = 500;
 
 void setup()
 {
@@ -13,7 +14,7 @@ void loop()
   
   Serial.println(estado);
   
-  if (estado > 800)
+  if (estado > valor)
   {
     digitalWrite(portaLed, HIGH);
   }
