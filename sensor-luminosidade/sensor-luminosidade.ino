@@ -1,6 +1,6 @@
 int portaLed = 10;
 int portaLDR = A5;
-const int valor = 500;
+const int valor = 100;
 
 void setup()
 {
